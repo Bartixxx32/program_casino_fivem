@@ -265,7 +265,7 @@ Citizen.CreateThread(function ()
 										classicTicket = true
 										TriggerServerEvent('program-casino:removeMoney',Config.classicPrice)
 									else
-										ESX.ShowNotification('~r~Nie masz wysarczająco pieniędzy')
+										ESX.ShowNotification('~r~Nie masz wystarczająco pieniędzy')
 									end
 								end)
 								menu.close()
@@ -279,7 +279,7 @@ Citizen.CreateThread(function ()
 										goldTicket = true
 										TriggerServerEvent('program-casino:removeMoney',Config.goldenPrice)
 									else
-										ESX.ShowNotification('~r~Nie masz wysarczająco pieniędzy')
+										ESX.ShowNotification('~r~Nie masz wystarczająco pieniędzy')
 									end
 								end)
 								wyzeruj()
@@ -293,7 +293,7 @@ Citizen.CreateThread(function ()
 										TriggerServerEvent('program-casino:removeMoney',Config.platiniumPrice)
 										TriggerServerEvent('program-casino:sendPlatinium')
 									else
-										ESX.ShowNotification('~r~Nie masz wysarczająco pieniędzy')
+										ESX.ShowNotification('~r~Nie masz wystarczająco pieniędzy')
 									end
 								end)
 								wyzeruj()
